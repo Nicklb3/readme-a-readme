@@ -1,0 +1,22 @@
+{
+  "name": "readme-a-readme",
+  "version": "1.0.0",
+  "description": "A professional readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicklb3/readme-a-readme.git"
+  },
+  "author": "Nick Bonner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicklb3/readme-a-readme/issues"
+  },
+  "homepage": "https://github.com/Nicklb3/readme-a-readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
