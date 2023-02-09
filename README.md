@@ -1,58 +1,58 @@
+# README-A-README
+<h1 align='center'> MIT</h1>
 
-    <h1 align='center'> MIT</h1>
+- ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-    - ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+## License
 
-    ## License
+This project is covered under the MIT license. Please refer to https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt for more information.
 
-    This project is covered under the MIT license. Please refer to https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt for more information.
+---
 
-    ---
+## Description
 
-    ## Description
+My motivation for making this project was to build a readme generator to save time on future projects.
 
-    My motivation for making this project was to build a readme generator to save time on future projects.
+---
 
-    ---
+## Table of Contents
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Questions](#questions)
 
-    ## Table of Contents
-    - [License](#license)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#contribution)
-    - [Test](#test)
-    - [Questions](#questions)
+---
 
-    ---
+## Installation
 
-    ## Installation
+To install run npm init, npm install, the run node index.js.
 
-    To install run npm init, npm install, the run node index.js.
+---
 
-    ---
+## Usage
 
-    ## Usage
+Instructions to use this project is to download noade modules by running an npm init  npm install   node   index.js
 
-    Instructions to use this project is to download noade modules by running an npm init  npm install   node   index.js
+---
 
-    ---
+## Contributing
 
-    ## Contributing
+N/A
 
-    N/A
+---
 
-    ---
+## Test
 
-    ## Test
+By running node index.js in your project terminal
 
-    By running node index.js in your project terminal
+---
 
-    ---
+## Questions
 
-    ## Questions
-
-    If you have any questions/concerns about the project, please contact me directly at Nicholaslbonner@yahoo.com. 
+If you have any questions/concerns about the project, please contact me directly at Nicholaslbonner@yahoo.com. 
     
-    Or for more details about this project you can check out my repo at my Github account, [Nicklb3](https://github.com/Nicklb3/).
+Or for more details about this project you can check out my repo at my Github account, [Nicklb3](https://github.com/Nicklb3/).
     
     
