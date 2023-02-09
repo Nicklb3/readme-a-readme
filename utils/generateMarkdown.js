@@ -45,7 +45,64 @@ function generateMarkdown (data) {
     - ${renderLicenseBadge(data.license)}
 
     ## License
-    `
+
+    This project is covered under the MIT license. Please refer to ${renderLicenseLink(
+        data.license
+    )} for more information.
+
+    ---
+
+    ## Description
+
+    ${data.description}
+
+    ---
+
+    ## Table of Contents
+    - [License](#license)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contribution](#contribution)
+    - [Test](#test)
+    - [Questions](#questions)
+
+    ---
+
+    ## Installation
+
+    ${data.installation}
+
+    ---
+
+    ## Usage
+
+    ${data.usage}
+
+    ---
+
+    ## Contributing
+
+    ${data.contributing}
+
+    ---
+
+    ## Test
+
+    ${data.test}
+
+    ---
+
+    ## Questions
+
+    If you have any questions/concerns about the project, please contact me directly at ${
+      data.email
+    }. 
+    
+    Or for more details about this project you can check out my repo at my Github account, [${
+      data.questions
+    }](https://github.com/${data.questions}/).
+    
+    `;
 }
 
 module.exports = generateMarkdown;
