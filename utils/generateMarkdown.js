@@ -1,5 +1,5 @@
-// function to return a license
-function renderLicense(license) {
+// function to return a license 
+function renderLicenseBadge(license) {
     if (license === 'MIT') {
         return '![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)';
     }
@@ -35,6 +35,17 @@ function renderLicenseSection(license) {
     } else {
         return `License: ${license}`;
     }
+}
+
+// A function that renders the readme
+function generateMarkdown (data) {
+    return `
+    <h1 align='center'> ${data.license}</h1>
+
+    - ${renderLicenseBadge(data.license)}
+
+    ## License
+    `
 }
 
 module.exports = generateMarkdown;
